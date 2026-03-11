@@ -122,7 +122,7 @@
                                 $('.widgetLiveScore .titleWidget').removeClass('nav-tab-active').first().addClass('nav-tab-active');
                                 // Call Fixtures Data from server
                                 $.ajax({
-                                    url: https://apiv2.allsportsapi.com/football/,
+                                    url: 'https://apiv2.allsportsapi.com/football/',
                                     cache: false,
                                     data: {
                                         met: 'Fixtures',
@@ -714,3 +714,4 @@
 
 
 })(jQuery, window, document);
+
