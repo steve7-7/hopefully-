@@ -322,7 +322,7 @@
             var firstElementInJson = 0;
             // Make call to server to get information about league standings
             $.ajax({
-                url: leagueDetailsAjaxURL,
+                url: 'https://apiv2.allsportsapi.com/football/',
                 cache: false,
                 data: {
                     met: 'Standings',
@@ -512,5 +512,6 @@
         // Get the time zone of your location
         timezone: getTimeZone()
     };
+
 
 })(jQuery, window, document);
