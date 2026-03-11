@@ -122,7 +122,7 @@
                                 $('.widgetLiveScore .titleWidget').removeClass('nav-tab-active').first().addClass('nav-tab-active');
                                 // Call Fixtures Data from server
                                 $.ajax({
-                                    url: liveScoreDetailsAjaxURL,
+                                    url: https://apiv2.allsportsapi.com/football/,
                                     cache: false,
                                     data: {
                                         met: 'Fixtures',
@@ -711,5 +711,6 @@
         // Display only the Live Score
         justLiveScore: false
     };
+
 
 })(jQuery, window, document);
