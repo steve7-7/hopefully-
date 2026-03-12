@@ -699,7 +699,7 @@
         // Motod for this widget
         method: 'LiveScore',
         // Link to server data
-        liveScoreDetailsAjaxURL: https://apiv2.allsportsapi.com/football/,
+        liveScoreDetailsAjaxURL: 'https://apiv2.allsportsapi.com/football/',
         // Background color for your Leagues Widget
         backgroundColor: null,
         // Width for your widget
@@ -714,6 +714,7 @@
 
 
 })(jQuery, window, document);
+
 
 
 
