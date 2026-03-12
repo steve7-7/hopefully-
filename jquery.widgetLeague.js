@@ -322,7 +322,7 @@
             var firstElementInJson = 0;
             // Make call to server to get information about league standings
             $.ajax({
-                url: 'https://apiv2.allsportsapi.com/football/',
+                url: leagueDetailsAjaxURL,
                 cache: false,
                 data: {
                     met: 'Standings',
@@ -515,3 +515,4 @@
 
 
 })(jQuery, window, document);
+
