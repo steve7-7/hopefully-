@@ -122,7 +122,7 @@
                                 $('.widgetLiveScore .titleWidget').removeClass('nav-tab-active').first().addClass('nav-tab-active');
                                 // Call Fixtures Data from server
                                 $.ajax({
-                                    url: 'https://apiv2.allsportsapi.com/football/',
+                                    url: liveScoreDetailsAjaxURL,
                                     cache: false,
                                     data: {
                                         met: 'Fixtures',
@@ -699,7 +699,7 @@
         // Motod for this widget
         method: 'LiveScore',
         // Link to server data
-        liveScoreDetailsAjaxURL: liveScoreDetailsAjaxURL,
+        liveScoreDetailsAjaxURL: https://apiv2.allsportsapi.com/football/,
         // Background color for your Leagues Widget
         backgroundColor: null,
         // Width for your widget
@@ -714,5 +714,6 @@
 
 
 })(jQuery, window, document);
+
 
 
