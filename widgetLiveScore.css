@@ -478,6 +478,11 @@
 
 /* START #liveGame */
 
+#liveGame .countryOfTeams {
+    text-transform: uppercase;
+    margin-right: 5px;
+}
+
 #liveGame .table__body_results .flex-table:hover {
     cursor: pointer;
 }
@@ -647,10 +652,9 @@
         display: none;
     }
 }
-
 @media (max-width: 1200px) {
     .callendarDays {
-        color: black !important;
+        color: black!important;
         background-color: #ffc107;
         display: inline-flex;
         border-color: #ffc107;
