@@ -1,5 +1,5 @@
 // WidgetKey can be obtained from your account 
-var widgetKey = 'a2d0f43bc98b633e315301fffe911c6edbca6a99531619476e6bcd93d846c5d2';
+var widgetKey = 'f5a1134ace77b239a91762ccb487d15643a66066b28cfea1199900cf065c51f8';
 // Store widgetKey in sessionStorage
 sessionStorage.setItem('widgetKey', widgetKey);
 
@@ -254,3 +254,4 @@ function whatToPush(where, bookmaker, one, two) {
     });
 
 }
+
