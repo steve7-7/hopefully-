@@ -41,6 +41,16 @@
 	        preferentialLeagues: [1, 3, 4, 28, 302, 244, 207, 175, 168, 152]
 	    });
 
+	$(document).ready(function() {
+
+        $('#widgetLiveScore').widgetLiveScore({
+           widgetWidth: '100%',
+           displayCalendar: true,
+           justLiveScore: false
+        });
+
+     });
+
 	    var windowWidthSize = $(window).width();
 
 	    if (windowWidthSize < 769) {
@@ -66,3 +76,4 @@
 
 </script>
 </html>
+
